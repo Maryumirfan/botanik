@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head{
+    color: white;
+    width: 30%;
+}
+.b1{
+    background-color: #04AA6D;
+    padding: 10px 12px;
+    border: none;
+    margin-left: 100px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    color: #04AA6D;
+  }
+  .nav{
+    text-align: center;
+    width: 50%;
+    display: flex;
+  }
+.top{
+    display: flex ;
+    flex-direction: row;
+    width: 100%;
+   background-color: #333;
+   justify-content: space-around;
+}
+.second{
+  background: rgb(51,51,51);
+  background: linear-gradient(90deg, rgba(51,51,51,1) 0%, rgba(0,85,54,1) 69%, rgba(0,126,80,1) 100%);
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    justify-content: space-around;
+}
+.flex1{
+margin-top: 100px;
+color: white;
+width: 50%;
+}
+.rating{
+  flex-direction: row;
+}
+.image{
+  margin-top: 170px;
+}
+#line{
+    color: rgb(0, 90, 90);
+    background-color: rgb(112, 255, 184);
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 7px;
+    border-radius: 30px;
+    width: 15%;
+}
+.text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.l2{
+  font-size: xx-large;
+
+   margin-top: 20px;
+}
+.l3{
+ 
+  margin-top: 20px;
+}
+
+#sp{
+   color: #01744a;
+}
+.sections{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.s1, .s2, .s3, .s4{
+ border: 4px solid rgb(0, 100, 75);
+ width: 20%;
+ text-align: center;
+ padding: 16px 24px;
+ box-shadow: 0px 0px 5px rgb(73, 73, 73);
+
+ }
+ #l4{
+  margin-top: 10px;
+ }
+
+
+
+  @media only screen and (max-width:600px) {
+   .top{
+        flex-direction: column;
+   }
+   .nav{
+     flex-direction: column;
+   }
+   .second{
+    width: 100%;
+    height: auto;
+   }
+   .text{
+    width: 100%;
+    flex-direction: column;
+   }
+   #line{
+    width: 40%;
+   }
+   .flex1{
+    width: 60%;
+   }
+   .image{
+    width: 40%;
+   }
+   .sections{
+    flex-direction: column;
+    flex-wrap: wrap;
+
+   }
+   .s1, .s2, .s3, .s4{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 10px;
+   }
+  }
